@@ -12,8 +12,8 @@ dlcolors = [dlblue, dlorange, dldarkred, dlmagenta, dlpurple]
 
 
 def load_data():
-    X = np.load("data/X.npy")
-    y = np.load("data/y.npy")
+    X = np.load("X.npy")
+    y = np.load("y.npy")
     return X, y
 
 def plt_act_trio():
