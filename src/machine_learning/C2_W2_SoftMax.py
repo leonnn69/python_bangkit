@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+from keras.models import Sequential
+from keras.layers import Dense
 from IPython.display import display, Markdown, Latex
 from sklearn.datasets import make_blobs
 from matplotlib.widgets import Slider
